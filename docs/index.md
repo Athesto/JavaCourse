@@ -13,7 +13,7 @@
 ## Notas
 ### Plugins
 |Name|URL|
-|---|---|
+| --- | --- |
 |Dracula Theme|[link](http://plugins.netbeans.org/plugin/62424/darcula-laf-for-netbeans)|
 |Vim interface|[link](http://plugins.netbeans.org/plugin/2802/jvi-vi-vim-editor-clone)|
 
