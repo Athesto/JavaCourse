@@ -12,6 +12,7 @@
 
 ## Notas
 ### Plugins
+
 |Name|URL|
 | --- | --- |
 |Dracula Theme|[link](http://plugins.netbeans.org/plugin/62424/darcula-laf-for-netbeans)|
@@ -33,4 +34,6 @@ Instalación NetBeans
 ```
 sudo snap install netbeans --clasic
 ```
+
+fin.
 
