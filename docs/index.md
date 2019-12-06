@@ -58,9 +58,10 @@ public static void main(String args[]){
 `String` Tipo de entrada de cadena de caracteres  
 `args` nombre de la variable  
 `[]` es un arreglo  
-`System` Es una clase que se conecta con la consola de JAVA
-`out` variable
-`print o println` metodo
+`System` Es una clase que se conecta con la consola de JAVA  
+`out` variable  
+`print` o `println` metodo de escritura
+
  
 
 fin.
