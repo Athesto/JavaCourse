@@ -50,6 +50,7 @@ public static void main(String args[]){
 	System.out.println("mensaje");
 }
 ```
+
 `public` modificador de acceso desde otras clases java  
 `static` ejecutar un metodo sin necesidad de crear un objeto  
 `void` no regresa ninguna informacion  
