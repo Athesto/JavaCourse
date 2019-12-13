@@ -62,7 +62,64 @@ public static void main(String args[]){
 `out` variable  
 `print` o `println` metodo de escritura
 
+#### Codigos
+
+`scanner.nextLine()` Lectura de la sgte linea
+
+
+#### Notas
+Cuando se asigna un valor a una variable se le conoce como valor en código duro o [hard-code](https://es.wikipedia.org/wiki/Hard_code)
+
+el metodo `toString` se llama automáticamente cuando se usa la función 
+```java
+println(object)
+```
+
+En herencia se utiliza el `super` para acceder al atributo o metodo del padre
+ - `super` debe estar en la primera linea del contructor.
+
+
+La página [UMLet](https://www.umlet.com/) permite hacer diagramas de UML
+
+No se debe tener en cuenta de que los literales octales son con solo poner un `0` antes del número, es decir que `012` es un `10` en base decimal
+
+Cuando se hace sobrecarga de constructor y se quiere llamar al constructor vacío, se usa el codigo `this()`
+
+```java
+public class Persona(){
+  private static int contadorPersonas;
+  private int idPersona;
+  private String nombre;
+  private int edad;
  
+  public Persona(){
+    this.idPersona = ++contadorPersonas;
+    }
+ 
+  public Persona(String nombre, int edad){
+    this(); // se esta llamando a Persona();
+    this.nombre = nombre;
+    this.edad = edad;
+    }
+  }
+```
+Nota: `this()` debe ser la primera función que se utliza en el constructor
+
+###### Super
+
+Se usa super cuando se quiere acceder a alguna caractarística de la clase padre
+
+```java
+public class Empleado extends Persona{
+  private double sueldo;
+
+  public Empleado(String nombre, int edad, double sueldo){
+    super(nombre, edad);
+    this.sueldo = sueldo;
+    }
+  }
+
+````
 
 fin.
 
