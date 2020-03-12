@@ -22,7 +22,7 @@
 
 instalación Java
 ```
-sudo add-apt-repository ppa:linuxuprising javac
+sudo add-apt-repository ppa:linuxuprising/java
 sudo apt-get update
 sudo apt-get install oracle-java13-installer
 sudo apt-get install oracle-java13-set-default
