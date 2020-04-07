@@ -23,11 +23,12 @@ instalación Java
 ```
 sudo add-apt-repository ppa:linuxuprising javac
 sudo apt-get update
-sudo apt-get install oracle-java12-installer
-sudo apt-get install oracle-java12-set-default
+sudo apt-get install oracle-java14-installer
+sudo apt-get install oracle-java14-set-default
 java --version
 javac --version
 ```
+[How to install java14](https://computingforgeeks.com/how-to-install-java-14-on-ubuntu-debian/)
 Instalación NetBeans
 
 ```
