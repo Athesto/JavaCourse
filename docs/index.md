@@ -6,7 +6,7 @@
 **Profesor**: Ubaldo Acosta [webpage](https://www.udemy.com/user/ubaldoacosta/)  
 url: https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master  
 
-## Editing
+## Workspace
  For editing the file, I'm using [grip](https://github.com/joeyespo/grip).  
  the code to start is:
 
@@ -14,6 +14,8 @@ url: https://www.udemy.com/course/universidad-java-especialista-en-java-desde-ce
  cd [project name]
  grip 3000
  ```
+
+For compiling I use the [tutorialpoint](https://www.tutorialspoint.com/compile_java_online.php) online compiler
 
 ## Notas
 ### Plugins
@@ -130,7 +132,77 @@ public class Empleado extends Persona{
     }
   }
 
-````
+```
+
+#### argumentos variables variables
+
+el término `varargs`
+
+```java
+/** EdadClientes */
+public class tienda{
+public static void main(String [] args){
+	edadClientes(21,24,46,23,21);
+}
+
+
+public static void edadClientes(int ... edades){
+	for(int i = 0; i<edades.length; i++)
+		System.out.println(edades[i]);
+
+}
+}
+```
+
+### foreach (for(:))
+```java
+/** foreach */
+public class kills{
+public static void main(String[] args){
+	total(12,3,1,1);
+}
+
+
+public static void total(int ... kills){
+	int total = 0;
+	for(int kill : kills){
+		total += kill;
+	}
+	System.out.println(total);
+
+}
+}
+```
+el formato de foreach permite recorrer un array sin necesidad de conocer su tamaño
+
+los `varargs` siempre deben estar al final. El compilador revisara cada argumento para emprezar a contar cuando empieza el `vararg`
+
+```java
+/** 
+ * Prueba del argumentos variables con multiple entrada
+ */
+public class Game{
+public static void main(String[] args){
+	mostrar(true, "vanessa", 1, 2, 3, 4);
+}
+
+public static void mostrar(boolean isOK, String name , int ... scores){
+	int total=0;
+	if(isOK){
+		for(int score : scores){
+			total += score;
+		}
+	System.out.println(name + ": " + total);
+	}
+}
+}
+```
+en el caso 
+
+
+
+
+
 
 fin.
 
