@@ -2,3 +2,5 @@
 /projects/labFinal/target/
 *.sw*
 /projects/EjemploVarArgs/target/
+/projects/EjemploEnum/target/
+/projects/BloquesCodigo/target/
