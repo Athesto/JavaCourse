@@ -199,10 +199,52 @@ public static void mostrar(boolean isOK, String name , int ... scores){
 ```
 en el caso 
 
+Las enumeracions
+
+```java
+public class Enumeraciones{
+	public enum Meses{
+		ENERO,
+		FEBRERO,
+		MARZO,
+		ABRIL,
+		MAYO
+	}
+
+	public static void main(String args[]){
+		Meses elMes = Meses.MAYO;
+		System.out.println("Mayo =: " + elMes);
+		int dias = cuantosDias(elMes);
+		System.out.println(elMes + " posee " + dias + " días");
+	}
+
+	static public int cuantosDias(Meses mes){
+	switch(mes){
+		case FEBRERO:
+			return 28;
+		case ABRIL:
+			return 30;
+		case ENERO:
+		case MARZO:
+		case MAYO:
+			return 31;
+		}
+	return 0;
+	}
+}
+```
+
+## Bloques códigos
+
+```java
+
+```
+		
+
+	
 
 
 
 
 
 fin.
-
