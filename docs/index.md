@@ -234,7 +234,21 @@ public class Enumeraciones{
 }
 ```
 
-## Bloques códigos
+## Autoboxing
+
+En el autoboxing las clases primitivas se encapsulan dentro de objetos.
+
+|Tipo primitivo|Clase Envolvente|
+|:------------:|:--------------:|
+|boolean|Boolean|
+|byte|Byte|
+|char|Character|
+|float|Float|
+|int|Integer|
+|long|Long|
+|short|Short|
+|double|Double|
+
 
 ```java
 
